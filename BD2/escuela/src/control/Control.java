@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 //Hola IRving
+//responder que pedo
 package control;
 
 import interfaces.DlgAdeudo;
