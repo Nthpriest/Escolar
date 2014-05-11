@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Menu class="javax.swing.JMenuBar" name="jMenuBar1">
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="menuDatosescuela">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="DatosEscuela"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="subMenuDatosEscuela_AgregarCarrera">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Agregar Carrera"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="subMenuDatosEscuela_AgregarCarreraActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="menuDatosAlumnos">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="DatosAlumnos"/>
+          </Properties>
+          <SubComponents>
+            <Menu class="javax.swing.JMenu" name="subDatosAlumnos_AgregarAlumno">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Agregar Alumno"/>
+              </Properties>
+              <SubComponents>
+                <MenuItem class="javax.swing.JMenuItem" name="opcionMenuAgregarAlumno_Alumno">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Alumno"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="opcionMenuAgregarAlumno_AlumnoActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="opcionMenuAgregarAlumno_AlumnoCarrera">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Alumno Carrera"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="opcionMenuAgregarAlumno_AlumnoCarreraActionPerformed"/>
+                  </Events>
+                </MenuItem>
+              </SubComponents>
+            </Menu>
+            <Menu class="javax.swing.JMenu" name="subDatosAlumnos_AgregarPagos">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Agregar Pagos"/>
+              </Properties>
+              <SubComponents>
+                <MenuItem class="javax.swing.JMenuItem" name="opcionMenuAgregarPagos_Pagos">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Pagos"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="opcionMenuAgregarPagos_PagosActionPerformed"/>
+                  </Events>
+                </MenuItem>
+              </SubComponents>
+            </Menu>
+            <Menu class="javax.swing.JMenu" name="subMenuAgregarAdeudos">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Agregar Adeudos"/>
+              </Properties>
+              <SubComponents>
+                <MenuItem class="javax.swing.JMenuItem" name="menuOpcionAgregarAdeudo_Adeudos">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Adeudos"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuOpcionAgregarAdeudo_AdeudosActionPerformed"/>
+                  </Events>
+                </MenuItem>
+              </SubComponents>
+            </Menu>
+            <Menu class="javax.swing.JMenu" name="jMenu6">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Agregar  Grupos"/>
+              </Properties>
+              <SubComponents>
+                <MenuItem class="javax.swing.JMenuItem" name="subMenuDatosAlumnos_AgregarGrupos">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Grupo"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="subMenuDatosAlumnos_AgregarGruposActionPerformed"/>
+                  </Events>
+                </MenuItem>
+              </SubComponents>
+            </Menu>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="menuDatosCatalogo">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="DatosCatalogo"/>
+          </Properties>
+          <SubComponents>
+            <Menu class="javax.swing.JMenu" name="submenuDatosCatalogo_AgregarCatalogo">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Agregar Catalogo"/>
+              </Properties>
+              <SubComponents>
+                <MenuItem class="javax.swing.JMenuItem" name="opcionMenuCatalogo">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Catalogo"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="opcionMenuCatalogoActionPerformed"/>
+                  </Events>
+                </MenuItem>
+              </SubComponents>
+            </Menu>
+            <Menu class="javax.swing.JMenu" name="subDatosCatalog_ActualizaCatalogo">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Actualiza Catalogo"/>
+              </Properties>
+              <SubComponents>
+                <MenuItem class="javax.swing.JMenuItem" name="opcionMenuActualizaCatalogo">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="ActualizaCatalogo"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="opcionMenuActualizaCatalogoActionPerformed"/>
+                  </Events>
+                </MenuItem>
+              </SubComponents>
+            </Menu>
+            <Menu class="javax.swing.JMenu" name="subMenuDatosCatalogos_ConsultarCatalogo">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Consultar Catalogo"/>
+              </Properties>
+              <SubComponents>
+                <MenuItem class="javax.swing.JMenuItem" name="opcionMenuConsultarCatalogo">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Consultar Catalogo"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="opcionMenuConsultarCatalogoActionPerformed"/>
+                  </Events>
+                </MenuItem>
+              </SubComponents>
+            </Menu>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="menuDatosMaestros">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="DatosMaestros"/>
+          </Properties>
+          <SubComponents>
+            <Menu class="javax.swing.JMenu" name="subMenuDatosMaestros_AgregarMaestro">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Agrega Maestro"/>
+              </Properties>
+              <SubComponents>
+                <MenuItem class="javax.swing.JMenuItem" name="opcionMenuAgregaMaestro_AgregarMAestro">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Agregar Maestro"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="opcionMenuAgregaMaestro_AgregarMAestroActionPerformed"/>
+                  </Events>
+                </MenuItem>
+              </SubComponents>
+            </Menu>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="menuDatosMaterias">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="DatosMaterias"/>
+          </Properties>
+          <SubComponents>
+            <Menu class="javax.swing.JMenu" name="subDatosMateria_AgregarMateria">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Agregar Materia"/>
+              </Properties>
+              <SubComponents>
+                <MenuItem class="javax.swing.JMenuItem" name="opcionMenuAgregarMateria_AgregarMAteria">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Agregar Materia"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="opcionMenuAgregarMateria_AgregarMAteriaActionPerformed"/>
+                  </Events>
+                </MenuItem>
+              </SubComponents>
+            </Menu>
+          </SubComponents>
+        </Menu>
+      </SubComponents>
+    </Menu>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="menuBar" type="java.lang.String" value="jMenuBar1"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <EmptySpace min="0" pref="571" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <EmptySpace min="0" pref="328" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+</Form>
