@@ -31,7 +31,7 @@ import persistencia.Persistencia;
 /**
  *
  * @author IVI
- */
+ *///OwO
 public class Control {
 
     // instaciamos la bariable que controla el comportamiento de las clases
